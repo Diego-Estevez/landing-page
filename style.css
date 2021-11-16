@@ -133,7 +133,6 @@ h1 {
 
     margin: 0;
     font-size: 36px;
-    font-weight: lighter;
     font-style: italic;  
 }
 
@@ -141,6 +140,42 @@ h1 {
     font-weight: bold;
     align-self: flex-end;
     font-size: 22px;
+}
+
+.sig-container {
+
+    padding: 0 15%;
+}
+.signup {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.signup button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 12%;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.signup h4, .signup p {
+
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+
+    color: #f9faf8;
+    
 }
 
 .plane{
